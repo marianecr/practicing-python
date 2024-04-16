@@ -1,3 +1,5 @@
+'''Crie um algoritmo que leia um número e mostre o seu dobro, triplo e raiz quadrada.'''
+
 from math import sqrt
 
 numero = int(input("Digite um número inteiro: "))

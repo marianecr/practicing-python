@@ -1,3 +1,5 @@
+'''Faça um programa que leia um número Inteiro qualquer e mostre na tela a sua tabuada.'''
+
 numero = int(input("Digite um número inteiro: "))
 
 print("*" * 30, f"\n\t TABUADA DE {numero}\n", "*" * 30)
