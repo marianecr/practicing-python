@@ -1,8 +1,7 @@
-'''Refaça o DESAFIO 35 dos triângulos, acrescentando o recurso de mostrar que tipo de triângulo será formado:
-
+"""Refaça o DESAFIO 35 dos triângulos, acrescentando o recurso de mostrar que tipo de triângulo será formado:
 - EQUILÁTERO: todos os lados iguais
 - ISÓSCELES: dois lados iguais, um diferente
-- ESCALENO: todos os lados diferentes'''
+- ESCALENO: todos os lados diferentes"""
 
 reta1 = float(input('Digite o tamanho da primeira reta: '))
 reta2 = float(input('Digite o tamanho da segunda reta: '))
