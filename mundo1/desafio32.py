@@ -1,4 +1,4 @@
-'''Faça um programa que leia um ano qualquer e mostre se ele é bissexto.'''
+"""Faça um programa que leia um ano qualquer e mostre se ele é bissexto."""
 from datetime import date
 
 ano = int(input('Digite o ano (para o ano atual, digite 1): '))

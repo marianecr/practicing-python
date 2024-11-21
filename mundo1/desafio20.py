@@ -1,12 +1,11 @@
-'''Um professor quer sortear um dos seus quatro alunos para apagar o quadro. Faça um programa que ajude ele, lendo o nome dos alunos e escrevendo na tela o nome do escolhido.'''
-
-from random import choice
+"""O mesmo professor do desafio 19 quer sortear a ordem de apresentação de trabalhos dos alunos. Faça um programa que leia o nome dos quatro alunos e mostre a ordem sorteada."""
+from random import shuffle
 
 estudante1 = input('Digite o nome do primeiro estudante: ')
 estudante2 = input('Digite o nome do segundo estudante: ')
 estudante3 = input('Digite o nome do terceiro estudante: ')
 estudante4 = input('Digite o nome do quarto estudante: ')
-
 alunos = [estudante1, estudante2, estudante3, estudante4]
 
-print(f'O estudante escolhido foi {choice(alunos)}.')
+shuffle(alunos)
+print(f'A ordem de apresentação será: {alunos}')
